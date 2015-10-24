@@ -1,0 +1,40 @@
+{
+  "name": "Sept1SEAD49",
+  "version": "0.1.0",
+  "description": "an example app that greets",
+  "main": "index.js",
+  "directories": {
+    "test": "./node_modules/mocha/bin/mocha test",
+    "custom": "echo 'hello from custom script'",
+    "start": "echo 'this would start a server'"
+  },
+  "dependencies": {
+    "chai": "^3.2.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-jscs": "^1.8.0",
+    "prompt": "^0.2.14",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.3.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "bin": "bin/greet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tallglass9000/NodeGreet.git"
+  },
+  "author": "lady.blue2015@yahoo.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tallglass9000/NodeGreet/issues"
+  },
+  "homepage": "https://github.com/Tallglass9000/NodeGreet#readme"
+}
